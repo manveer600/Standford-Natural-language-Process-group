@@ -12,11 +12,11 @@ if (document.documentElement.clientWidth > 1200) {
 
 if (document.documentElement.clientWidth < 1200) {
     let x = document.querySelector("h1");
-    x.innerHTML = '<a href="/index.html">The Stanford NLP Group</a>';
+    x.innerHTML = '<a href="index.html">The Stanford NLP Group</a>';
 }
 if (document.documentElement.clientWidth > 1200) {
     let x = document.querySelector("h1");
-    x.innerHTML = '<a href="/index.html">The Stanford Natural Language Processing Group</a>'; 
+    x.innerHTML = '<a href="index.html">The Stanford Natural Language Processing Group</a>'; 
 }
 // function myFunction() {
 //     var x = document.getElementById("ham-content");
